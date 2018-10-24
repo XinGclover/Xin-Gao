@@ -19,7 +19,7 @@ public class Hund extends Husdjur implements IFoder{
     
     //Override metoden som sätter viss fod som behövs
     public String foderNamn(){
-        return "Hundfoder and DogsFood";
+        return "DogsFood";
     }
     //Override metoden som räknar vikt av viss fod som behövs
     public int foderGram() {
