@@ -27,5 +27,7 @@ public class Husdjur {
     public int getVike(){
         return vikt;
     }
+    
+   
       
 }
