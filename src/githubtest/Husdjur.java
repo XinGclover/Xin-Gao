@@ -16,7 +16,7 @@ public class Husdjur {
     }
     
     public Husdjur(String namn,int vikt){
-        this.namn=namn;
+        setNamn(namn);
         this.vikt=vikt;   
     }
     
@@ -27,5 +27,8 @@ public class Husdjur {
     public int getVike(){
         return vikt;
     }
-      
+    
+    public void setNamn(String namn){
+        this.namn=namn;
+    }
 }
